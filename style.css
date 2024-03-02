@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f3f9d2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background: #cbeaa6;
+  height: 90vh;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #c0d684;
+  height: 70vh;
+  width: 60%;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  overflow: hidden;
+}
+
+.card-left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #63264a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #7b146f;
+}
+
+.details {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  color: white;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.bio {
+  margin-top: -15px;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.media-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.link, .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #840c76;
+}
+
+.button {
+  height: 60px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  margin-top: 20px;
+  border-radius: 34px;
+  padding: 8px 24px;
+  background-color: #63264a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #3d0b37;
+}
+
+.card-right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #63264A;
+  height: calc(100% - 3px);
+  width: 100%;
+  color: white;
+  margin-bottom: 3px;
+}
+
+.data i {
+  font-size: 20px;
+}
+
+.data p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.data:last-child{
+  margin-bottom: unset;
+}
+
+
