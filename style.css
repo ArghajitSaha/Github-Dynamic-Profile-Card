@@ -16,7 +16,7 @@ body {
 }
 
 .main {
-  background: #cbeaa6;
+  background: linear-gradient(to bottom left, rgb(203, 234, 166),rgb(99, 38, 74));
   height: 90vh;
   width: 80%;
   border-radius: 20px;
@@ -46,8 +46,8 @@ body {
 }
 
 .profile-img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   background-color: #63264a;
   display: flex;
@@ -60,7 +60,7 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #7b146f;
+  border: 10px solid #7b146f;
 }
 
 .details {
@@ -71,7 +71,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 40px;
-  color: white;
 }
 
 .name {
@@ -80,7 +79,7 @@ body {
 }
 
 .bio {
-  margin-top: -15px;
+  margin-top: -10px;
   font-size: 25px;
   font-weight: 200;
 }
@@ -152,12 +151,13 @@ body {
 }
 
 .data i {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .data p {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
+  text-align: center;
 }
 
 .data:last-child{
